@@ -10,11 +10,11 @@
 <meta property='og:description' content='프로젝트 산출물에 대한 성능 및 품질 요구사항'>
 <meta property='og:url' content='https://alpha.proposal.biyard.co./pm/main/'>
 <meta property='og:site_name' content=''>
-<meta property='og:type' content='article'><meta property='article:section' content='Pm' /><meta property='article:tag' content='pm' /><meta property='article:tag' content='main' /><meta property='article:published_time' content='2023-03-09T10:52:00&#43;09:00'/><meta property='article:modified_time' content='2023-03-10T21:31:09&#43;09:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Pm' /><meta property='article:tag' content='pm' /><meta property='article:tag' content='main' /><meta property='article:published_time' content='2023-03-09T10:52:00&#43;09:00'/><meta property='article:modified_time' content='2023-03-10T22:05:44&#43;09:00'/>
 <meta name="twitter:title" content="프로젝트 관리">
 <meta name="twitter:description" content="프로젝트 산출물에 대한 성능 및 품질 요구사항"><link rel="preload" as="font" href="https://alpha.proposal.biyard.co./fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
 <link rel="preload" as="font" href="https://alpha.proposal.biyard.co./fonts/vendor/jost/jost-v4-latin-700.woff2" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="https://alpha.proposal.biyard.co./main.7f27c9194dcbbc3d456eea641dbc166de4147a0a00c1a79f1bf824d1754d18de279bbdbf877f7517ddb0efde90bf04ff7841d80ea28c549ef73eff65387601bb.css" integrity="sha512-fyfJGU3LvD1FbupkHbwWbeQUegoAwaefG/gk0XVNGN4nm72/h391F92w796QvwT/eEHYDqKMVJ73Pv9lOHYBuw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://alpha.proposal.biyard.co./main.c2e0c6aa2f088b82780cb3ae8fc948f0662f3659a5078e904e65b9e2863da584b4ff23b29ab335dc2ef4996e783dd435c560ffeedaeacaa86a6697f26baaaf8f.css" integrity="sha512-wuDGqi8Ii4J4DLOuj8lI8GYvNlmlB46QTmW54oY9pYS0/yOymrM13C70mW54PdQ1xWD/7trqyqhqZpfya6qvjw==" crossorigin="anonymous">
 <noscript><style>img.lazyload { display: none; }</style></noscript>
   <meta name="robots" content="index, follow">
   <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -37,7 +37,7 @@
 
   <meta property="og:image" content="https://alpha.proposal.biyard.co./doks.png"/>
     <meta property="article:published_time" content="2023-03-09T10:52:00+09:00">
-  <meta property="article:modified_time" content="2023-03-10T21:31:09+09:00">
+  <meta property="article:modified_time" content="2023-03-10T22:05:44+09:00">
   <meta property="og:site_name" content="알파몰 리뉴얼 제안서">
 
 <meta property="article:publisher" content="https://www.facebook.com/">
@@ -301,116 +301,9 @@ printscale weekly
 saturday are closed
 sunday are closed
 
--- 웹디자인 --
-[웹/모바일 웹 디자인 1차] as [d1]  starts 2023-04-01
-[웹/모바일 웹 디자인 2차] as [d2]  starts 2023-04-01
-[d1] lasts 15 days
-[d2] lasts 15 days
-
-[d1] -&gt; [d2]
-
--- 백엔드 서버 --
-[샘플 API 개발] as [b1] lasts 1 days
-[회원가입 관리 APIs] as [b2] lasts 1 week
-[구인 공고 관리 APIs] as [b3] lasts 1 week
-[이력서 관리 APIs] as [b4] lasts 1 week
-[병원 인증 관리 APIs] as [b5] lasts 1 week
-[공고 지원 APIs] as [b6] lasts 1 week
-[알림 관리 APIs] as [b7] lasts 1 week
-[결제 관리 APIs] as [b8] lasts 1 week
-[회원 권한 체계 APIs] as [b9] lasts 1 week
-
-[b1] -&gt; [b2]
-[b2] -&gt; [b3]
-[b3] -&gt; [b4]
-[b4] -&gt; [b5]
-[b5] -&gt; [b6]
-[b6] -&gt; [b7]
-[b7] -&gt; [b8]
-[b8] -&gt; [b9]
-
--- 관리자 웹 --
-[배너관리] as [a1] lasts 1 week
-[공고관리] as [a2] lasts 1 week
-
-[a1] -&gt; [a2]
-
--- 공통웹 --
-[회원가입] as [w1] lasts 1 week
-[디자인 적용] as [w9] lasts 2 weeks
-
--- 서비스웹(구인자) --
-[메인페이지 레이아웃] as [w2] lasts 1 week
-[병원프로필 및 인증] as [w3] lasts 1 week
-[구인공고 관리] as [w4] lasts 1 weeks
-[지원 이력서 관리] as [w5] lasts 1 week
-[배너 관리] as [w6] lasts 1 weeks
-[인재 검색] as [w7] lasts 1 week
-[채용지원] as [w8] lasts 1 week
-
-[w1] -&gt; [w2]
-[w2] -&gt; [w3]
-[w3] -&gt; [w4]
-[w4] -&gt; [w5]
-[w5] -&gt; [w6]
-[b5] -&gt; [w6]
-[w6] -&gt; [w7]
-[w7] -&gt; [w8]
-[w8] -&gt; [w9]
-[d1] -&gt; [w9]
-
--- 서비스웹(구직자) --
-[이력서 관리] as [w21] lasts 1 week
-[구인공고 조회] as [w22] lasts 1 week
-[병원검색] as [w23] lasts 1 week
-[병원 구독] as [w24] lasts 1 week
-[이메일/핸드폰 인증] as [w25] lasts 1 week
-[회원탈퇴] as [w26] lasts 1 week
-
-[w21] -&gt; [w22]
-[w22] -&gt; [w23]
-[w23] -&gt; [w24]
-[w24] -&gt; [w25]
-[w25] -&gt; [w26]
-[w26] -&gt; [w9]
-[d1] -&gt; [w9]
-
-
--- 모바일 --
-[웹뷰] as [m1] lasts 2 days
-[Android 퍼블리싱] as [m2] lasts 20 days
-[iOS 퍼블리싱] as [m3] lasts 10 days
-
-[w7] -&gt; [m1]
-[m1] -&gt; [m2]
-[m1] -&gt; [m3]
-
-
--- 운영 인프라 --
-[운영환경 결정] as [i1] lasts 1 days
-[DB 셋업] as [i2] lasts 5 days
-[Docker 셋업] as [i3] lasts 5 days
-[Domain 셋업] as [i4] lasts 3 days
-[API gateway 셋업] as [i5] lasts 5 days
-[CI/CD 또는 스크립트 개발] as [i6] lasts 5 days
-
-[i1] -&gt; [i2]
-[i2] -&gt; [i3]
-[b1] -&gt; [i3]
-[i3] -&gt; [i4]
-[i4] -&gt; [i5]
-[i5] -&gt; [i6]
-
--- Testing --
-[통합테스트] as [t1] lasts 4 weeks
-[w9] -&gt; [t1]
-[b9] -&gt; [t1]
-[i6] -&gt; [t1]
-[m3] -&gt; [t1]
-
 @endgantt
 </code></pre><figure>
-    <img src="/ox-hugo/medical-job-plan.png"/> 
+    <img src="/ox-hugo/alpha-plan.png"/> 
 </figure>
 
 
