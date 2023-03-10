@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>알파몰 리뉴얼 제안서 on </title>
+    <link>https://alpha.proposal.biyard.co./</link>
+    <description>Recent content in 알파몰 리뉴얼 제안서 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Thu, 09 Mar 2023 10:52:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://alpha.proposal.biyard.co./index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Develops</title>
+      <link>https://alpha.proposal.biyard.co./develop/</link>
+      <pubDate>Thu, 09 Mar 2023 10:52:00 +0900</pubDate>
+      
+      <guid>https://alpha.proposal.biyard.co./develop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intros</title>
+      <link>https://alpha.proposal.biyard.co./intro/</link>
+      <pubDate>Thu, 09 Mar 2023 10:52:00 +0900</pubDate>
+      
+      <guid>https://alpha.proposal.biyard.co./intro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methodologies</title>
+      <link>https://alpha.proposal.biyard.co./methodology/</link>
+      <pubDate>Thu, 09 Mar 2023 10:52:00 +0900</pubDate>
+      
+      <guid>https://alpha.proposal.biyard.co./methodology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pms</title>
+      <link>https://alpha.proposal.biyard.co./pm/</link>
+      <pubDate>Thu, 09 Mar 2023 10:52:00 +0900</pubDate>
+      
+      <guid>https://alpha.proposal.biyard.co./pm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qas</title>
+      <link>https://alpha.proposal.biyard.co./qa/</link>
+      <pubDate>Thu, 09 Mar 2023 10:52:00 +0900</pubDate>
+      
+      <guid>https://alpha.proposal.biyard.co./qa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statuses</title>
+      <link>https://alpha.proposal.biyard.co./status/</link>
+      <pubDate>Thu, 09 Mar 2023 10:52:00 +0900</pubDate>
+      
+      <guid>https://alpha.proposal.biyard.co./status/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supports</title>
+      <link>https://alpha.proposal.biyard.co./support/</link>
+      <pubDate>Thu, 09 Mar 2023 10:52:00 +0900</pubDate>
+      
+      <guid>https://alpha.proposal.biyard.co./support/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
